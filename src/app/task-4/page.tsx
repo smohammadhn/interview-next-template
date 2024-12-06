@@ -5,7 +5,7 @@ Persist the dark/light mode on refresh!
 
 when refreshing the page, the dark/light mode should not reset.
 
-Time estimation: 5 mins
+Time estimation: 8 mins
 
 */
 
@@ -15,15 +15,14 @@ import { useState } from 'react';
 
 import { cn } from '@/lib/utils';
 
-export default function PageTaskThree() {
+export default function PageTaskFour() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
-  const isDark = theme === 'dark';
 
   return (
     <main
       className={cn(
         'p-10 text-center h-screen',
-        isDark && 'bg-gray-900 text-white'
+        theme === 'dark' && 'bg-gray-900 text-white'
       )}
     >
       {/* theme change buttons */}
