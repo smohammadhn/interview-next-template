@@ -1,11 +1,10 @@
 /*
 Task Description:
 
-Persist the dark/light mode on refresh!
+Persist the dark mode on refresh!
+when refreshing the page, the dark mode should not reset.
 
-when refreshing the page, the dark/light mode should not reset.
-
-Time estimation: 8 mins
+Time estimation: 6 mins
 
 */
 
