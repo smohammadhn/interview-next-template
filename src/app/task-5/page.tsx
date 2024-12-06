@@ -4,7 +4,7 @@ Task Description:
 Implement the `randomItemPicker` function.
 It takes an array as input and returns a random item from the array.
 
-Time estimation: 8 mins
+Time estimation: 5 mins
 
 */
 

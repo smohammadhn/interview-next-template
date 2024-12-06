@@ -6,7 +6,7 @@ Use the link below and fetch only 10 ToDos from the API and display them in the 
 * API URL: https://jsonplaceholder.typicode.com/todos
 * Please use React-query and Axios. (both are installed!)
 
-Time estimation: 8 mins
+Time estimation: 5 mins
 
 */
 
