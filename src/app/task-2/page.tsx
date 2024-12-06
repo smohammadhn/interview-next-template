@@ -1,15 +1,25 @@
 /*
 Task Description:
 
-Create a very simple page with a header, a body text, and a footer.
+Use the link below and fetch only 10 ToDos from the API and display them in the page.
 
-1. Header must be centered in the top of the page.
-1. Footer must be centered in the bottom of the page.
-3. Body text should be centered in the middle of the page.
-4. Please use Tailwind CSS for styling.
+* API URL: https://jsonplaceholder.typicode.com/todos
+* Please use React-query and Axios. (both are installed!)
 
-Time estimation: 6 mins
+Time estimation: 8 mins
 
 */
 
-// CODE HERE: 👇
+// import { ... } from '@tanstack/react-query';
+// import axios from 'axios';
+
+export default function PageTaskTwo() {
+  return (
+    <main className='p-10 text-center'>
+      <h1 className='mb-5 pb-5 border-b-2 border-gray-500 text-[2rem] font-bold'>
+        Todos are here:
+      </h1>
+      {/* CODE HERE: 👇 */}
+    </main>
+  );
+}
